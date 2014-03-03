@@ -10,7 +10,6 @@ pyinotify==0.9.4
 pytz==2012d
 pyxattr==0.5.1
 pyxdg==0.25
-rpm-python==4.11.2
 seobject==0.1
 sepolicy==1.1
 setroubleshoot-default-encoding==0.1
