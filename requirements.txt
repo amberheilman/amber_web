@@ -4,7 +4,6 @@ backports.ssl-match-hostname==3.4.0.2
 cssselect==0.9.1
 decorator==3.4.0
 iniparse==0.4
-lxml==3.2.4
 policycoreutils-default-encoding==0.1
 pycups==1.9.63
 pycurl==7.19.3
