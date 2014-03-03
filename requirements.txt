@@ -10,8 +10,6 @@ pyinotify==0.9.4
 pytz==2012d
 pyxattr==0.5.1
 pyxdg==0.25
-slip==0.6.0
-slip.dbus==0.6.0
 urlgrabber==3.9.1
 wsgiref==0.1.2
 yum-langpacks==0.4.3
