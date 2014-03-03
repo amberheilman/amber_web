@@ -10,6 +10,5 @@ pyinotify==0.9.4
 pytz==2012d
 pyxattr==0.5.1
 pyxdg==0.25
-wsgiref==0.1.2
 yum-langpacks==0.4.3
 yum-metadata-parser==1.1.4
