@@ -5,7 +5,6 @@ cssselect==0.9.1
 decorator==3.4.0
 iniparse==0.4
 lxml==3.2.4
-ntplib==0.3.1
 policycoreutils-default-encoding==0.1
 pycups==1.9.63
 pycurl==7.19.3
