@@ -7,7 +7,6 @@ pycups==1.9.63
 pycurl==7.19.3
 pygpgme==0.3
 pyinotify==0.9.4
-pyliblzma==0.5.3
 pyparted==3.9
 python-augeas==0.4.1
 python-meh==0.27
