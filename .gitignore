@@ -55,4 +55,5 @@ docs/_build/
 venv
 
 #python files
-.pyc
+*.pyc
+staticfiles
