@@ -3,7 +3,6 @@ IPy==0.75
 backports.ssl-match-hostname==3.4.0.2
 cssselect==0.9.1
 decorator==3.4.0
-fros==1.0
 glusterfs-api==3.4.2
 gyp==0.1
 iniparse==0.4
