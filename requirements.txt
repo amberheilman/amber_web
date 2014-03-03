@@ -3,7 +3,6 @@ IPy==0.75
 backports.ssl-match-hostname==3.4.0.2
 cssselect==0.9.1
 decorator==3.4.0
-pycups==1.9.63
 pycurl==7.19.3
 pygpgme==0.3
 pyinotify==0.9.4
