@@ -1,7 +1,6 @@
 CherryPy==3.2.4
 IPy==0.75
 backports.ssl-match-hostname==3.4.0.2
-blivet==0.23.9
 chardet==2.0.1
 cssselect==0.9.1
 cupshelpers==1.0
