@@ -7,7 +7,6 @@ pycups==1.9.63
 pycurl==7.19.3
 pygpgme==0.3
 pyinotify==0.9.4
-python-xlib==0.15rc1
 pytz==2012d
 pyxattr==0.5.1
 pyxdg==0.25
