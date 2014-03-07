@@ -1,7 +1,8 @@
-import cherrypy
-class HelloWorld(object):
-    def index(self):
-        return "Hello World!"
-    index.exposed = True
+import os
+from flask import Flask
 
-cherrypy.quickstart(HelloWorld())
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return 'Hello World!'
