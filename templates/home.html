@@ -11,46 +11,97 @@
 		<title>home</title>
 	</head>
 
-	<div class="header">
-		<div class="button">About Me</div>
-		<div class="button">Projects</div>
-		<div class="button">Resume</div>
-		<div class="button">Contact</div>
+	<div id="head" class="header">
+		<div class="button"><a href="#block2">About Me</a></div>
+		<div class="button"><a href="#block3">Projects</a></div>
+		<div class="button"><a href="#block4">Resume</a></div>
+		<div class="button"><a href="#block5">Contact</a></div>
 	</div>
-	<div id="block1">
+	<div name="banner" id="block1">
 		<div class="left"></div>
 
 		<div class="right">
 			<h1 class="bottom-border">Amber Heilman</h1>
-			<h2>Software Engineer at AWeber Communications</h2>
-			<h2>Graduated Drexel University 2014</h2>
+			<h2>Software Engineer at <a href="http://www.aweber.com/meet-the-team.htm#amberh">AWeber Communications</a></h2>
+			<h2>Graduated <a href="http://drexel.edu/cci/">Drexel University</a> 2014</h2>
 			<h3>Master of Science in Software Engineering</h3>
 		</div>
 
 	</div>
 
-	<div id="block2" class="">
+	<div name="aboutme" id="block2">
+		<div class="topic-header-font">About Me</div>
+
+		<p>once it has stuuf?</p>
 
 	</div>
 
+	<div name="projects" id="block3">
+			<div class="topic-header-font">Projects</div>
 
+		<p>once it has stuuf?</p>
+	</div>
+
+	<div name="resume" id="block4">
+			<div class="topic-header-font">Resume</div>
+
+	<p>
+		<button><p><i class="fa fa-floppy-o"></i> Resume <p class="small">.pdf</p></p></button>
+
+	</p>
+
+	</div>
+
+	<div name="contact" id="block5">
+		<div class="topic-header-font">Contact</div>
+			<p>Send me a message.</p>	
+			<form>
+				<label for="name">
+					<i id="icon" class="fa fa-male"></i>
+				</label>
+
+				<input type="text" name="name" placeholder="Name">
+
+				<label for="email">
+					<i id="icon" class="fa fa-envelope"></i>
+				</label>
+
+				<input type="text" name="email" placeholder="Email">
+
+				<input type="textarea" name="message">
+
+				<input class="button" type="submit" value="Submit">
+			</form>
+
+	</div>
 
 	<body>
 
 	</body>
 	<footer>
-		<div class="pink-para">Amber Heilman</div>
-		<p>
-			<i class="fa fa-twitter-square"></i> Twitter
-		</p>
-		<p>
-			<i class="fa fa-twitter-square"></i> Facebook
-		</p>
-		<p>
-			<i class="fa fa-linkedin-square"></i> LinkedIn
-		</p>
-		<p>
-			<i class="fa fa-github"></i> GitHub
-		</p>
+		
+		<a href="#head">
+			<div class="pink-para">Amber Heilman</div>
+		</a>
+		<a href="http://www.twitter.com/theamberheilman">
+			<p>
+				<i class="fa fa-twitter-square"></i> Twitter
+			</p>
+		</a>
+		<a href="https://www.facebook.com/amber.heilman.125">
+			<p>
+				<i class="fa fa-facebook-square"></i> Facebook
+			</p>
+		</a>
+		<a href="http://www.linkedin.com/pub/amber-heilman/21/807/790">
+			<p>
+				<i class="fa fa-linkedin-square"></i> LinkedIn
+			</p>
+		</a>
+		<a href="http://www.github.com/amberheilman">
+			<p>
+				<i class="fa fa-github"></i> GitHub
+			</p>
+		</a>
 	</footer>
 </html>
