@@ -5,20 +5,17 @@
 		{% block head %}
 		<link rel="stylesheet" href="{{ url_for('static', filename='bootstrap_custom.css') }}">
 		<link rel="stylesheet" href="{{ url_for('static', filename='css.css') }}">
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		{% endblock %}
 		<title>home</title>
 	</head>
 
 	<div id="head" class="header">
-		<div class="button"><a href="#block2">About Me</a></div>
-		<div class="button"><a href="#block3">Skills</a></div>
-		<div class="button"><a href="#block4">Projects</a></div>
-		<div class="button"><a href="#block5">Contact</a></div>
+		<div class="button"><a href="#block2">ABOUT ME</a></div>
+		<div class="button"><a href="#block3">SKILLS</a></div>
+		<div class="button"><a href="#block4">PROJECTS</a></div>
+		<div class="button"><a href="#block5">CONTACT</a></div>
 	</div>
 	<div name="banner" id="block1">
 		<div class="prof-pic left"></div>
@@ -48,25 +45,26 @@
 
 		</div>
 	</div>
+	<div class="sub-blocks">
 
 	<div name="aboutme" id="block2">
-		<div class="topic-header-font">About Me</div>
+		<div class="topic-header-font">ABOUT ME</div>
 		<p>I am a recent graduate </p>
 
 		<div class="quote right">
-			<i class="fa fa-quote-left"></i><p>I want to pursue my desire to introduce women into a world of computing technology without boundaries.</p><i class="fa fa-quote-right"></i>
+			<i class="fa fa-quote-left"></i><p>I want to introduce women into a world of computing without boundaries.</p><i class="fa fa-quote-right"></i>
 		</div>
 
 	</div>
 
 	<div name="skills" id="block3">
 
-		<div class="topic-header-font">Skills</div>
+		<div class="topic-header-font">SKILLS</div>
 		<h4>Here are my skills as they relate to the software engineering role. </h4>
 
 		<div class="left-padded">
 
-			<h2 class="h2-colored">Strengths:</h2>
+			<h4>Strengths:</h4>
 			<h3>Python 2, 3</h3>
 			<h3>Flask, Tornado</h3>
 			<h3>Postgres, SQL</h3>
@@ -77,7 +75,7 @@
 
 		<div class="right-padded">
 
-			<h2 class="h2-colored">Experience With:</h2>
+			<h4>Experience With:</h4>
 			<h3>Java, PHP, Ruby</h3>
 			<h3>HTML5, CSS3</h3>
 			<h3>Javascript, Bootstrap</h3>
@@ -90,21 +88,18 @@
 
 	<div name="projects" id="block4">
 		
-		<div class="topic-header-font">Projects</div>
+		<div class="topic-header-font">PROJECTS</div>
 
 		<div id="mousetrap" class="left">
-			<i class="fa fa-video-camera"></i>
 			<h2>Gnome Mousetrap</h2>
 		</div>
 
 		
 		<div id="stationdown" class="">
-			<i class="fa fa-fire-extinguisher"></i>
 			<h2>StationDown</h2>
 		</div>
 
 		<div id="backchannel" class="right">
-			<i class="fa fa-weixin"></i>
 			<h2>Backchannel</h2>
 		</div>
 
@@ -112,18 +107,16 @@
 
 
 	<div name="contact" id="block5">
-		<div class="topic-header-font">Contact</div>
+		<div class="topic-header-font">CONTACT</div>
 			<p>Send me a message.</p>	
 				<form class="form center">
 					<fieldset>
 					<label class="rounded" for="name">
-						<i id="icon" class="fa fa-male"></i>
 					</label>
 
 					<input type="text" name="name" placeholder="Name">
 
 					<label class="rounded" for="email">
-						<i id="icon" class="fa fa-envelope"></i>
 					</label>
 
 					<input type="text" name="email" placeholder="Email">
@@ -137,7 +130,7 @@
 			</form>
 
 	</div>
-
+	</div>
 	<body>
 
 	</body>
