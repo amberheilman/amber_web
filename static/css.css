@@ -7,7 +7,7 @@ a {
 body {
 
   background-image: url('background.jpg');
-    background-attachment: fixed;
+  background-attachment: fixed;
 
 }
 
@@ -41,20 +41,20 @@ footer {
 form {
 
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poiret One', cursive;
 
 }
 
 h1 {
 
-  font-family: 'Ubuntu', sans-serif;  
+  font-family: 'Poiret One', cursive;
   font-size: 300%;
   color: black;
 }
 
 h2 {
 
-  font-family: 'Ubuntu', sans-serif;  
+  font-family: 'Poiret One', cursive;
   font-size: 200%;
   margin: 0;
   color: black;
@@ -63,8 +63,18 @@ h2 {
 
 h3 {
 
-  font-family: 'Ubuntu', sans-serif;  
+  font-family: 'Poiret One', cursive;
   font-size: 150%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+
+}
+
+h4 {
+
+  font-family: 'Poiret One', cursive;
+  font-size: 125%;
   margin-top: 0;
   margin-bottom: 0;
   color: black;
@@ -73,39 +83,37 @@ h3 {
 
 input[type=submit] {
 
-  border-radius: 10%;
   border-color: black;
+  border-radius: 10%;
   background-color: black;
   color: white;
+  height: 8%;
+  width: 20%;
 
 }
 
 input[type=text] {
 
-  height: 39px; 
-  -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
-  -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
-  border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
-  background-color: #fff; 
-  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
-  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
-  box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
-  border: solid 1px #cbc9c9;
-  margin-left: -5px;
-  margin-top: 13px; 
-  padding-left: 10px;
 
 }
 
 p {
 
-  font-family: 'Ubuntu', sans-serif;  
+  font-family: 'Poiret One', cursive;
   font-size: 100%;
   color: white;
   margin-left: 6%;
   margin-right: 6%;
   display: inline;
 
+
+}
+
+small {
+
+  font-size: 70%;
+  margin: 0 0;
+  padding: 0 0;
 
 }
 
@@ -124,8 +132,8 @@ p {
 
   height: 90%;
   width: 100%;
-  background-image: url('block_background.jpg');
-  opacity: 0.9;
+  background-image: url('curcuit_bg.png');
+  opacity: 0.5;
   text-align: center;
   text-align: -webkit-center;
   position: relative;
@@ -148,8 +156,8 @@ p {
 
   height: 90%;
   width: 100%;
-  background-image: url('block_background.jpg');
-  opacity: 0.9;
+  background-image: url('curcuit_bg.png');
+  opacity: 0.95;
   text-align: center;
   text-align: -webkit-center;
   position: relative;
@@ -168,28 +176,30 @@ p {
 
 }
 
-#icon {
+#mousetrap {
 
-  display: inline-block;
-  width: 30px;
-  background-color: #3a57af;
-  padding: 8px 0px 8px 15px;
-  margin-left: 15px;
-  -webkit-border-radius: 4px 0px 0px 4px; 
-  -moz-border-radius: 4px 0px 0px 4px; 
-  border-radius: 4px 0px 0px 4px;
-  color: white;
-  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
-  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
-  box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
-  border: solid 0px #cbc9c9;
+  background-image: url('mousetrap.jpg');
+
 }
 
+#stationdown {
+
+  background-image: url('stationdown.jpg');
+
+}
 
 .border {
 
   border-top: solid white;
   border-top-width: 1%;
+
+}
+
+.bottom {
+
+  vertical-align: text-bottom;
+  display: inline-block;
+
 
 }
 
@@ -199,14 +209,85 @@ p {
 
 }
 
+.button:hover, a:hover, footer p:hover {
+
+  color: #F44DD2;
+  text-decoration: none;
+
+}
+
+.circle {
+
+  width: 20%;
+  max-width: 49%;
+  max-height: 99%;
+  padding-bottom: 21%;
+  -moz-border-radius: 50%; 
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 3% 0% 10% 10%;
+  border-style: solid;
+  border-color: white;
+  display: inline-block;
+  float: left;
+
+}
+
+.circle-join {
+
+  -moz-border-radius: 50%; 
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: solid double white;
+  display: inline-block;
+
+}
+
+.download-button {
+
+  max-height: 100%;
+  max-width: 100%;
+  height: 10%;
+  width: 45%;
+  font-size: 150%;
+  margin: 10% 5% 10% 0%;
+  color: white;
+  background-color: black;
+  border-radius: 5%;
+  border: solid white;
+  opacity: 0.8;
+  padding: 2% 1% 0% 1%;
+  margin: 8% auto;
+
+}
+
+.download-button:hover {
+
+  color: rgba(252, 6, 219, 0.8);
+  border-color: rgba(252, 6, 219, 0.8);
+
+}
+
 .fade-to-nothing {
 
-    background-image: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));
-    background-image: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
-    background-image: -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
-    background-image: linear-gradient(to bottom, rgba(255,255,255,1),rgba(255,255,255,0));
-    background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: linear-gradient(to bottom, rgba(255,255,255,1),rgba(255,255,255,0));
+  background-repeat: repeat-x;
+
+}
+
+.form {
+
+  width:50%;
+  display: block;
+  vertical-align: baseline;
+  margin: 0, 10%;
+  position: absolute; top: -8px; left: 1em;
 
 }
 
@@ -216,6 +297,11 @@ p {
   max-width: 100%;
   max-height: 100%;
 
+}
+
+.h2-colored {
+
+  color: rgb(149, 203, 242);
 
 }
 
@@ -233,21 +319,31 @@ p {
 
   margin: 2% 5%;
   display: inline-block;
-  font-family: 'Ubuntu', sans-serif;  
+  font-family: 'Poiret One', cursive;
   font-size: 150%;
   color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 
 }
 
-.button:hover, a:hover, footer p:hover {
+.left {
 
-  color: #F44DD2;
-  text-decoration: none;
+  display: inline-block;
+  float: left;
 
 }
 
-.left {
+.left-padded {
+
+  float: left;
+  padding-left: 18%;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 200%;
+
+}
+
+.prof-pic {
 
   width: 20%;
   max-width: 49%;
@@ -260,14 +356,20 @@ p {
   background-position: center;
   margin: 3% 0% 10% 10%;
   border: solid white;
-  display: inline-block;
-  float: left;
+
+}
+
+.prof-text {
+
+  font-family: 'Poiret One', cursive;
+  margin: 5% 18% 10% -10%;
+  max-width: 48%;
 
 }
 
 .pink-para {
 
-  font-family: 'Ubuntu', sans-serif;  
+  font-family: 'Poiret One', cursive;
   font-size: 190%;
   margin-left: 6%;
   margin-right: 6%;
@@ -276,25 +378,63 @@ p {
 
 }
 
+.quote {
+
+  background-color: white;
+  border-radius: 30%;
+  opacity: 0.9;
+  max-width: 40%;
+  max-height: 70%;
+  margin: 10% 2%;
+  padding: 1% 1% 1% 1%;
+
+}
+
+.quote p {
+
+  font-style: italic;
+  color: #585858; 
+  font-size: 150%;
+
+}
+
 .right {
 
-  margin: 5% 18% 10% -10%;
-  max-width: 48%;
   display: inline-block;
   float: right;
   
 }
 
+.right-padded {
+
+  float: right;
+  padding-right: 10%;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 200%;
+  
+}
+
+.rotate:hover {
+
+  -webkit-transform:rotate(60deg);
+  -moz-transform:rotate(60deg);
+  -o-transform:rotate(60deg);
+
+}
+
 .topic-header-font {
 
-  color: white;
-  font-size: 300%;
+  font-family: 'Poiret One', cursive;
+  font-size: 400%;
   text-align: center;
+  color: white;
 
 }
 
 .topic-font {
 
+  font-family: 'Poiret One', cursive;
   color: white;
   font-size: 150%;
 
