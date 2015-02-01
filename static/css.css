@@ -1,89 +1,82 @@
+@media screen and (min-width: 722px){
 
-a                     {color: white;}
-body                  {background-image: url('background.jpg'); background-attachment: fixed; color:black;}
-button                {border-radius: 4%; border-color: rgb(252, 6, 219); background-color: rgb(252, 6, 219);}
-button:hover          {opacity: 0.8;}
-footer                {height:8%; width:100%; position: fixed; background-color: black; opacity: 0.8; bottom: 0; margin-bottom: 0;
-                        text-align: center;}
-form                  {text-align: center; font-family: body}
-h1, h2, h3, h4        {font-family: 'Ubuntu', sans-serif;}
-h1                    {font-size: 300%; color: black;}
-h2                    {font-size: 200%; margin: 0; color: black;}
-h3                    {font-size: 150%; margin-top: 0; margin-bottom: 0; color: black;}
-h4                    {font-size: 125%; margin-top: 0; margin-bottom: 0; color: black;}
-input[type=submit]    {border-color: black; border-radius: 10%; background-color: black; color: white; height: 8%; width: 20%;}
-input[type=text]      {height: 8%; color: black;}
-input[type="textarea"]{height: 30%; margin-bottom:10%;}
-footer p              {font-family: 'Ubuntu', sans-serif; font-weight: 500; font-size: 100%; color: white; margin-left: 6%; margin-right: 6%;
-                        display: inline;}
-small                 {font-size: 70%; margin: 0 0; padding: 0 0;}
-#block1               {height: 90%; width: 100%; background-color: rgba(77, 244, 149, 0.8); text-align: center; text-align: -webkit-center;
-                        position: relative;}
-#block2               {height: 90%; width: 100%;text-align: center; text-align: -webkit-center; position: relative;}
-#block3               {height: 90%; width: 100%; background-color: rgba(252, 6, 219, 0.8); text-align: center; text-align: -webkit-center;
-                        position: relative;}
-#block4               {height: 90%; width: 100%;text-align: center; text-align: -webkit-center; position: relative;}
-#block5               {height: 90%; width: 100%; background-color: rgba(252, 6, 219, 0.8); text-align: center; text-align: -webkit-center;
-                        position: relative;}
-#mousetrap            {background-image: url('mousetrap.jpg');}
-#stationdown          {background-image: url('stationdown.jpg');}
-.border               {border-top: solid white; border-top-width: 1%;}
-.bottom               {vertical-align: text-bottom; display: inline-block;}
-.bottom-border        {border-bottom: solid black;}
-.button:hover, 
-  a:hover,
-  footer p:hover      {color: #F44DD2; text-decoration: none;}
-.circle               {width: 20%; max-width: 49%; max-height: 99%; padding-bottom: 21%; -moz-border-radius: 50%; border-radius: 50%;
-                        background-repeat: no-repeat; background-position: center; margin: 3% 0% 10% 10%; border-style: solid;
-                        border-color: white; display: inline-block; float: left;}
-.circle-join          {-moz-border-radius: 50%; border-radius: 50%; background-repeat: no-repeat; background-position: center;
-                        border: solid double white; display: inline-block;}
-.download-button      {max-height: 100%; max-width: 100%; height: 10%; width: 45%; font-size: 150%; margin: 10% 5% 10% 0%;
-                        color: white; background-color: black; border-radius: 5%; border: solid white; opacity: 0.8;
-                        padding: 2% 1% 0% 1%; margin: 8% auto;}
-.download-button:hover{color: rgba(252, 6, 219, 0.8); border-color: rgba(252, 6, 219, 0.8);}
-.fade-to-nothing      {background-image: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
-                        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));
-                        background-image: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
-                        background-image: -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
-                        background-image: linear-gradient(to bottom, rgba(255,255,255,1),rgba(255,255,255,0));
-                        background-repeat: repeat-x;}
-.form                 {display:block; width:30%;}
-.form input           {width:100%; margin: 0, 10%; float: center;}
-.form label           {display:inline-block; margin-bottom:5%;}
-.gear1                {background-image: url('gear1.jpg'); max-width: 100%; max-height: 100%;}
-.header               {height: 10%; width: 100%; opacity: 0.8; background-color: black; text-align: center;}
-.header .button       {font-family: 'Ubuntu', sans-serif; margin: 2% 5%; display: inline-block; font-size: 150%; color: white;
-                        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);}
-.left                 {display: inline-block; float: left;}
-.left-padded          {float: left; padding-left: 18%;  text-align: center; padding-top: 5%;  font-size: 200%;}
-.prof-pic             {width: 20%; max-width: 49%; max-height: 99%; padding-bottom: 21%; -moz-border-radius: 50%; border-radius: 50%;
+a {text-decoration: none;}
+body {background-image: url('curcuit_bg.jpg'); margin: 0px; background-position: center; box-shadow: inset 0 0 0 1000px rgba(0, 148, 255, 0.2);}
+html {font-family: 'Poiret One', cursive;}
+
+.header {height: 45px; width:100%; position: fixed; background-color: black; top: 0; margin-top: 0; text-align: center; display: inline-flex;}
+.header .hamburger {display: none;}
+
+.header .nav {letter-spacing: 2px; font-weight:600; display: inline-flex; padding-left: 5%;}
+.header .nav a {color:#000; color: white;}
+.header .nav a:hover {background-color: rgba(160, 183, 253, 0.61); border-bottom: 2px solid white; opacity: 0.9;}
+
+.header .nav-item {padding-left: 5%; padding-top: 10px; width: 118px;}
+
+
+.header .contact a {color: #fff;}
+.header .contact .button {width: 40px; height: 39px; padding-top: 4px;}
+.header .contact .button:hover {background-color: #fff; border-bottom: 2px solid rgba(160, 183, 253, 0.61);}
+.header .contact a:hover {color: black;}
+.header .contact i {padding-top: 7px;}
+
+.header .contact {position: absolute; right: 0; display: inline-flex; vertical-align: center;}
+
+
+.banner {height: 730px;}
+.banner h1      {font-size: 70; color: black; margin-bottom: 12px;}
+.banner h3     {font-weight: 500; font-size: 30; color: black; margin-top:0;}
+.border-text {border-top: 1px solid black;}
+.center {width: 60%;  margin-left: auto; margin-right: auto; padding-top: 200px; text-align: center;}
+
+
+
+.about-me {height: 370px; background-color: #1C2C37; border-top: 5px solid white; border-bottom: 5px solid white;}
+
+.about-me .circle {float: left; width: 20%; max-height: 99%; padding-bottom: 21%; -moz-border-radius: 50%; box-shadow: 10px 8px 50px 0px; border-radius: 50%;
                         background-image: url('prof_pic.jpg'); background-repeat: no-repeat; background-position: center;
-                        margin: 3% 0% 10% 10%; border: solid white;}
-.prof-text            {font-family: 'Ubuntu', sans-serif; margin: 5% 18% 10% -10%; max-width: 48%;}
-.pink-para            {font-family: 'Ubuntu', sans-serif; font-size: 190%; margin-left: 6%; margin-right: 6%; display: inline; color: #FC06DB;}
-.quote                {background-color: white; border-radius: 30%; opacity: 0.9; max-width: 40%; max-height: 70%; margin: 10% 2%;
-                        padding: 1% 1% 1% 1%;}
-.quote p              {font-style: italic; color: black; font-size: 150%;}
-.right                {display: inline-block; float: right;}
-.right-padded         {float: right; padding-right: 10%; text-align: center; padding-top: 5%; font-size: 200%;}
-.rotate:hover         {-webkit-transform:rotate(60deg); -moz-transform:rotate(60deg); -o-transform:rotate(60deg);}
-.topic-header-font    {font-family: 'Ubuntu', sans-serif; font-size: 400%; text-align: center;}
-.topic-font           {font-family: 'Ubuntu', sans-serif; color: black; font-size: 150%;}
-::-webkit-input-placeholder {
-   padding-left: 1%;
-   color: black;
-   font-family: 'Ubuntu', sans-serif;
+                        margin: 3% 0% 10% 10%; border: 0px solid white;}
+.about-me .right {max-width: 64%; float: right; padding-right: 2%;}
+.about-me p {font-size: 40; color: white;}
+.about-me i {padding: 9px;}
+
+.skills {height: 500px;}
+
+.skills .block-item {}
+
+
+
 }
 
-:-moz-placeholder { /* Firefox 18- */
-   color: red;  
-}
+@media screen and (max-width: 722px){
 
-::-moz-placeholder {  /* Firefox 19+ */
-   color: red;  
-}
 
-:-ms-input-placeholder {  
-   color: red;  
+a {text-decoration: none;}
+body {background-image: url('curcuit_bg.jpg'); margin: 0px; background-position: center;box-shadow: inset 0 0 0 1000px rgba(0, 148, 255, 0.2);}
+html {font-family: 'Poiret One', cursive;}
+
+.header {height: 45px; width:100%; position: fixed; background-color: black; opacity: 0.8; top: 0; margin-top: 0; text-align: center; display: inline-flex;}
+
+.header .nav {display: none;}
+.header .hamburger {display: inline-flex; padding-left: 5%; color:white; padding-top: 4px;}
+
+
+.header .contact a {color: #fff;}
+.header .contact .button {width: 40px; height: 39px; padding-top: 4px;}
+.header .contact .button:hover {background-color: #fff; border-bottom: 2px solid rgba(160, 183, 253, 0.61);}
+.header .contact a:hover {color: black;}
+.header .contact i {padding-top: 7px;}
+
+.header .contact {position: absolute; right: 0; display: inline-flex; vertical-align: center;}
+
+
+.banner {height: 800px;}
+.banner h1      {font-size: 70; color: black; margin-bottom: 12px;}
+.banner h3     {font-weight: 500; font-size: 30; color: black; margin-top:0;}
+.border-text {border-top: 1px solid black;}
+.center {width: 60%;  margin-left: auto; margin-right: auto; padding-top: 200px; text-align: center;}
+
+
+
+.about-me {height: 500px; background-color: #fff;}
 }
