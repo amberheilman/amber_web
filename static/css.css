@@ -42,10 +42,19 @@ html {font-family: 'Poiret One', cursive;}
 
 .skills {height: 1000px;}
 
-.skills .block-item {text-align: center; vertical-align: center; background-size: contain; background-repeat: no-repeat;}
-.skills .block-item h2 {display: none;}
-.skills .block-item:hover h2 {display: inline-block; color: white;}
-.block-item:hover {background-image: none !important; background-color: #FF6100;}
+.skills #python {top:0; left:0; background-image: url("python.png");}
+.skills #python:hover {background-image: none; background-color: #FF6100;}
+
+.skills #jenkins {background-image: url("jenkins.png"); background-color: black;}
+.skills #jenkins:hover {background-image: none; background-color: #FF6100;}
+
+.skills .block-item {float:left; display: inline-block; height:270px; width:270px;background-size: contain;}
+.skills .block-item h2 {display: none;  text-align: center; vertical-align: center; }
+.skills .block-item:hover h2 {display: block; color: white;}
+
+
+}
+
 
 
 }
