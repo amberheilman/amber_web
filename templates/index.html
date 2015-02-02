@@ -81,9 +81,12 @@
 
 
 	<div id="skills" class="skills">
-		<div class="block-item">
 
+	{% for img, desc in skillset.iteritems() %}
+		<div class="block-item" style="{{img}};">
+			<h2>{{ desc }}</h2>
 		</div>
+	{% endfor %}
 
 	</div>
 

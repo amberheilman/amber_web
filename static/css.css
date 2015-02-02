@@ -4,7 +4,7 @@ a {text-decoration: none;}
 body {background-image: url('curcuit_bg.jpg'); margin: 0px; background-position: center; box-shadow: inset 0 0 0 1000px rgba(0, 148, 255, 0.2);}
 html {font-family: 'Poiret One', cursive;}
 
-.header {height: 45px; width:100%; position: fixed; background-color: black; top: 0; margin-top: 0; text-align: center; display: inline-flex;}
+.header {height: 45px; width:100%; z-index:2; position: fixed; background-color: black; top: 0; margin-top: 0; text-align: center; display: inline-flex;}
 .header .hamburger {display: none;}
 
 .header .nav {letter-spacing: 2px; font-weight:600; display: inline-flex; padding-left: 5%;}
@@ -23,7 +23,7 @@ html {font-family: 'Poiret One', cursive;}
 .header .contact {position: absolute; right: 0; display: inline-flex; vertical-align: center;}
 
 
-.banner {height: 730px;}
+.banner {height: 720px;}
 .banner h1      {font-size: 70; color: black; margin-bottom: 12px;}
 .banner h3     {font-weight: 500; font-size: 30; color: black; margin-top:0;}
 .border-text {border-top: 1px solid black;}
@@ -40,10 +40,12 @@ html {font-family: 'Poiret One', cursive;}
 .about-me p {font-size: 40; color: white;}
 .about-me i {padding: 9px;}
 
-.skills {height: 500px;}
+.skills {height: 1000px;}
 
-.skills .block-item {}
-
+.skills .block-item {text-align: center; vertical-align: center; background-size: contain; background-repeat: no-repeat;}
+.skills .block-item h2 {display: none;}
+.skills .block-item:hover h2 {display: inline-block; color: white;}
+.block-item:hover {background-image: none !important; background-color: #FF6100;}
 
 
 }
