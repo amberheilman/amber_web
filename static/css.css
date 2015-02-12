@@ -1,7 +1,7 @@
 @media screen and (min-width: 722px){
 
 a {text-decoration: none;}
-body {background-image: url('curcuit_bg.jpg'); margin: 0px; background-position: center; box-shadow: inset 0 0 0 1000px rgba(0, 148, 255, 0.2);}
+body {background-image: url('curcuit_bg.jpg'); margin: 0px; min-height: 100%; background-size: cover; background-attachment: fixed; background-repeat: no-repeat; background-position: center center; box-shadow: inset 0 0 0 1000px rgba(0, 148, 255, 0.2);}
 html {font-family: 'Poiret One', cursive;}
 
 .header {height: 45px; width:100%; z-index:2; position: fixed; background-color: black; top: 0; margin-top: 0; text-align: center; display: inline-flex;}
@@ -40,17 +40,17 @@ html {font-family: 'Poiret One', cursive;}
 .about-me p {font-size: 40; color: white;}
 .about-me i {padding: 9px;}
 
-.skills {height: 1000px;}
+.skills {height: 1000px; width: 100%;}
 
-.skills #python {top:0; left:0; background-image: url("python.png");}
+.skills #python {background-image: url("python.png");}
 .skills #python:hover {background-image: none; background-color: #FF6100;}
 
 .skills #jenkins {background-image: url("jenkins.png"); background-color: black;}
 .skills #jenkins:hover {background-image: none; background-color: #FF6100;}
 
-.skills .block-item {float:left; display: inline-block; height:270px; width:270px;background-size: contain;}
-.skills .block-item h2 {display: none;  text-align: center; vertical-align: center; }
-.skills .block-item:hover h2 {display: block; color: white;}
+.skills .block-item {height:270px; width:270px; background-size: contain; }
+.skills .block-item h2 {display: none;}
+.skills .block-item:hover h2 {color: white;}
 
 
 }
