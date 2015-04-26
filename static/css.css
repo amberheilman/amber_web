@@ -1,15 +1,15 @@
 @media screen and (min-width: 722px){
 
 a {text-decoration: none;}
-body {background-image: url('curcuit_bg.jpg'); margin: 0px; min-height: 100%; background-size: cover; background-attachment: fixed; background-repeat: no-repeat; background-position: center center; box-shadow: inset 0 0 0 1000px rgba(0, 148, 255, 0.2);}
+body {background-image: url('background.png'); margin: 0px; min-height: 100%; background-size: cover; background-attachment: fixed; background-repeat: no-repeat; } //box-shadow: inset 0 0 0 1000px rgba(0, 148, 255, 0.2);}
 html {font-family: 'Poiret One', cursive;}
 
-.header {height: 45px; width:100%; z-index:2; position: fixed; background-color: black; top: 0; margin-top: 0; text-align: center; display: inline-flex;}
+.header {height: 45px; width:100%; z-index:2; position: fixed; background-color: black; top: 0; margin-top: 0; text-align: center; display: inline-flex; border-bottom: solid white 1px;}
 .header .hamburger {display: none;}
 
 .header .nav {letter-spacing: 2px; font-weight:600; display: inline-flex; padding-left: 5%;}
 .header .nav a {color:#000; color: white;}
-.header .nav a:hover {background-color: rgba(160, 183, 253, 0.61); border-bottom: 2px solid white; opacity: 0.9;}
+.header .nav a:hover {background-color: rgba(25, 192, 212, 1); border-bottom: 2px solid white; opacity: 0.9;}
 
 .header .nav-item {padding-left: 5%; padding-top: 10px; width: 118px;}
 
@@ -24,14 +24,18 @@ html {font-family: 'Poiret One', cursive;}
 
 
 .banner {height: 720px;}
-.banner h1      {font-size: 70; color: black; margin-bottom: 12px;}
-.banner h3     {font-weight: 500; font-size: 30; color: black; margin-top:0;}
-.border-text {border-top: 1px solid black;}
-.center {width: 60%;  margin-left: auto; margin-right: auto; padding-top: 200px; text-align: center;}
+.banner i {margin-left: 49%; color: white; margin-top:4%;}
+.banner i:hover {color: rgb(22, 172, 190);}
+.banner h1      {font-size: 70; color: white; margin-bottom: 12px;}
+.banner h3     {font-weight: 500; font-size: 40; color: white; margin-top:0;}
+.border-text {border-top: 1px solid white;}
+.center {width: 60%;  margin-left: auto; margin-right: auto; padding-top: 130px; text-align: center;}
 
 
+h1.block {position: absolute; color: white; padding-left: 0px; padding-top: 0px; margin-left: 46.5%; margin-top: 17.5%;
+}
 
-.about-me {height: 370px; background-color: #1C2C37; border-top: 5px solid white; border-bottom: 5px solid white;}
+.about-me {height: 370px; background-color: rgba(15, 20, 24, 0.71);}
 
 .about-me .circle {float: left; width: 20%; max-height: 99%; padding-bottom: 21%; -moz-border-radius: 50%; box-shadow: 10px 8px 50px 0px; border-radius: 50%;
                         background-image: url('prof_pic.jpg'); background-repeat: no-repeat; background-position: center;
@@ -40,24 +44,40 @@ html {font-family: 'Poiret One', cursive;}
 .about-me p {font-size: 40; color: white;}
 .about-me i {padding: 9px;}
 
-.skills {height: 1000px; width: 100%;}
+.skills {height: 915px; width: 100%; float: left;}
+.skills .python {background-image: url("python.png"); background-color: white;}
+.skills .jenkins {background-image: url("jenkins.png"); background-color: rgb(113, 190, 234);}
+.skills .github {background-image: url("github.png"); background-color: rgb(17, 239, 222);}
+.skills .linux {background-image: url("linux.png"); background-color: rgb(157, 29, 29);}
+.skills .postgres {background-image: url("postgres.png"); background-color: rgb(255, 190, 21);}
+.skills .tornado {background-image: url("tornado.png"); background-color: rgba(232, 24, 255, 1);}
+.skills .flask {background-image: url("flask.png"); background-color: rgb(237, 252, 14);}
+.skills .rest_api {background-image: url("rest_api.png"); background-color: white;}
+.skills .mac {background-image: url("mac.png"); background-color: rgb(55, 0, 255);}
+.skills .mongodb {background-image: url("mongodb.png"); background-color: rgb(100, 160, 160);}
+.skills .nginx {background-image: url("nginx.png"); background-color: rgba(0, 151, 76, 1)}
+.skills .vagrant {background-image: url("vagrant.png"); background-color: rgb(255, 126, 0)}
+.skills .apache {background-image: url("apache.png"); background-color: rgb(144, 75, 208)}
+.skills .php {background-image: url("php.png"); background-color: rgb(255, 0, 136)}
+.skills .html_css {background-image: url("html_css.png"); background-color: white;}
 
-.skills #python {background-image: url("python.png");}
-.skills #python:hover {background-image: none; background-color: #FF6100;}
 
-.skills #jenkins {background-image: url("jenkins.png"); background-color: black;}
-.skills #jenkins:hover {background-image: none; background-color: #FF6100;}
+.skills div {height:270px; width: 20%; background-size: contain; float: left; display: inline; background-repeat: no-repeat; opacity: 0.3;}
+.skills div:hover {opacity: 1.0;}
 
-.skills .block-item {height:270px; width:270px; background-size: contain; }
-.skills .block-item h2 {display: none;}
-.skills .block-item:hover h2 {color: white;}
-
-
-}
+.projects {height: 1000px; width: 100%; float: left;}
+.projects div {margin-left: 5%; margin-right: 5%; color: white; background-color: black; height:300px; width: 40%; float: left; display: inline;}
+.projects div:hover {}
+.projects h1 {margin-left: 45.3%;}
 
 
-
-}
+.contact {height: 500px; float: left; display:inline; margin-left: 10%;}
+.contact h1 {margin-left: 130px; color: white;}
+.contact input {border: none; padding: 8px; font-size: x-large; background-color: white; height: 40px; width: 260px; margin-left: 53%; margin-bottom: 12px;}
+.contact input:focus::-webkit-input-placeholder {color: transparent;}
+.contact textarea {margin-left: 53%; height: 100px; width: 260px;}
+.contact .fa-chevron-circle-right {color: rgb(255, 0, 242); float: right;}
+.contact .fa-chevron-circle-right:hover {color: white;}
 
 @media screen and (max-width: 722px){
 
