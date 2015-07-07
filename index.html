@@ -2,11 +2,9 @@
 	<head>
 		<meta http-equiv="Content-Language" content="en-us">
 		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-		{% block head %}
-		<link rel="stylesheet" href="{{ url_for('static', filename='css.css') }}">
+		<link rel="stylesheet" href="css.css">
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		{% endblock %}
 		<title>Amber Heilman</title>
 	</head>
 
@@ -19,7 +17,6 @@
 		<div class="nav">
 			<a href="#aboutme"><div class="nav-item">ABOUT ME</div></a>
 			<a href="#skills"><div class="nav-item">SKILLS</div></a>
-			<a href="#contactme"><div class="nav-item">CONTACT</div></a>
 		</div>
 
 		<div class="contact">
@@ -97,13 +94,5 @@
 		<div id='php' class="php"></div>
 		<div id='html_css' class="html_css"></div>
     </div>
-
-    <div id="contactme" class="contactme">
-        <h1>Call me maybe...</h1>
-        <input type="text" placeholder="Name"/>
-        <input type="text" placeholder="Email"/>
-        <textarea class="message"></textarea>
-        <i class="fa fa-chevron-circle-right fa-5x"></i>
-    </div>
-	</body>
+    </body>
 </html>
